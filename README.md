@@ -3,12 +3,12 @@
 Predicting YouTube video **view count** using publicly available **metadata** and **early engagement** signals (likes, comments, etc.).  
 This project follows an end-to-end supervised machine-learning workflow aligned to an MSc Data Science report structure (University of Hertfordshire style): data preparation → EDA → feature engineering → modelling → evaluation → tuning → discussion.
 
----
+
 
 ## Project Aim
 To assess **how accurately machine-learning models can predict video view counts** using features available at (or shortly after) upload, without relying on long-term view-history trajectories.
 
----
+
 
 ## Dataset
 **Source:** Kaggle – *YouTube Statistics* dataset (`youtube_statistics.csv`). :contentReference[oaicite:0]{index=0}  
@@ -21,7 +21,7 @@ The dataset contains YouTube video-level records with:
 
 > Note: This dataset represents a **snapshot** of engagement at collection time (not a full growth time-series), which suits early-stage popularity modelling. :contentReference[oaicite:1]{index=1}
 
----
+
 
 ## Workflow (High-Level)
 1. **Load and inspect** dataset
@@ -40,7 +40,6 @@ The dataset contains YouTube video-level records with:
 8. **Hyperparameter tuning (manual/empirical)** for tree/boosting models
 9. **Compare models** and interpret results
 
----
 
 ## Feature Engineering (Used in Modelling)
 The notebook builds structured predictors from raw metadata: :contentReference[oaicite:3]{index=3}
