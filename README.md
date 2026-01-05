@@ -12,6 +12,7 @@ To assess **how accurately machine-learning models can predict video view counts
 
 ## Dataset
 **Source:** Kaggle – *YouTube Statistics* dataset (`youtube_statistics.csv`). :contentReference[oaicite:0]{index=0}  
+Dataset link : https://www.kaggle.com/datasets/anggundwilestari/youtube-statistics?select=youtube_statistics.csv
 The dataset contains YouTube video-level records with:
 
 - **Engagement metrics:** `views`, `likes`, `dislikes`, `comment_count`
